@@ -1,4 +1,4 @@
-import { describe, expect, it, vi, beforeEach } from "vitest";
+import { describe, expect, it, vi} from "vitest";
 import { CreateCardUseCase } from "../../../../src/application/use-cases/CreateCardUseCase";
 import type { UserRepository } from "../../../../src/application/ports/UserRepository";
 import type { CardRepository } from "../../../../src/application/ports/CardRepository";
